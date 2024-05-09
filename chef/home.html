@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Connect</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="home.html" class="logo"><img src="img/logo.png" 
+            style="vertical-align: middle; margin-right: 10px; height: 40px; width: 40px; border-radius: 50%;
+            background-color: transparent;">
+            Chef Connect</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services2.html">Services</a></li>
+            <li class="dropdown">
+                <a href="aboutus.html" class="dropbtn">About Us</a>
+                <div class="dropdown-content">
+                    <a href="ourchef.html">Our Chef</a>
+                    <a href="/joinus.html">Join Us</a>
+                </div>
+            </li>
+            <li><a href="index.html">Book a Chef</a></li>
+        </ul>
+    </header>
+    
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Chef Connect</h3>
+            <h1>Where Cullinary <br />Excellence <br />Meets <span>Convenience</span></h1>
+                <p>Discover seamless culinary solutions that elevate your dining experience at Chef Connect.</p>
+                <a href="#contact" class="btn">Contact Here</a>
+        </div>
+        <div class="home-img">
+            <img src="img/chef.png" alt="">
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <p>What We Serve</p>
+            <h2>Your Favourite Food <br> Delivery Partner</h2>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <img src="https://i.imgur.com/iTe75My.png" alt="">
+                <h2>Easy To Order</h2>
+                <p>Chef Connect's user-friendly platform allows you to quickly and easily order great meals with a single click.</p>
+            </div>
+            <div class="box">
+                <img src="https://i.imgur.com/QMCV44O.png" alt="">
+                <h2>Fastest Delivery</h2>
+                <p>"Experience the quickest chef arrivals for on-time service with Chef Connect."</p>
+            </div>
+            <div class="box">
+                <img src="https://i.imgur.com/to2YlGx.png" alt="">
+                <h2>Best Quality</h2>
+                <p>Chef Connect offers outstanding chefs who provide top-tier quality.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Chef section -->
+    <section class="chefs" id="chefs">
+        <div class="heading">
+            <p>Our Chefs</p>
+            <h2>Our Awesome Chef's</h2>
+        </div>
+        <div class="chefs-container">
+            <div class="chef-box">
+                <img src="https://i.imgur.com/L7RcnFc.png" alt="">
+                <div class="text">
+                    <h2>John Watson</h2>
+                    <p>John Watson is a seasoned chef with a knack for merging ancient techniques with current invention, ensuring each meal is a masterpiece of flavor and presentation.
+                    </p>
+                    <a href="index.html" class="btn">Hire Now</a>
+                </div>
+            </div>
+            <div class="chef-box">
+                <img src="https://i.imgur.com/j1v4u3h.png" alt="">
+                <div class="text">
+                    <h2>Alexa Gomez</h2>
+                    <p>Meet Alexa Gomez, a passionate chef who creates unique culinary experiences that mix innovation and flavor, giving joy to every plate.
+                    </p>
+                    <a href="index.html" class="btn">Hire Now</a>
+                </div>
+            </div>
+            <div class="chef-box">
+                <img src="https://i.imgur.com/DwLu6Ds.png" alt="">
+                <div class="text">
+                    <h2>Richard</h2>
+                    <p>Meet Richard, a culinary prodigy known for his unique flavors and flawless technique who is ready to improve your dining experience with each dish.
+                    </p>
+                    <a href="index.html" class="btn">Hire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <p>Have Any Question?</p>
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+
+                <input type="hidden" name="access_key" value="f5d87d7a-a8fe-4ff3-8fed-26e3dd636d26">
+
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required> 
+               <textarea name="massege" placeholder="Aditionl Information" class="contact-inputs" ></textarea>
+               <button type="submit">Submit <i class="fa-regular fa-circle-check"></i>></button>
+            </form>
+        </div>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo">Chef Connect</a>
+            </div>
+            <div class="footer-links">
+                <a href="home.html">Home</a>
+                <a href="services2.html">Services</a>
+                <a href="aboutus.html">About Us</a>
+                <br>
+                <a href="ourchef.html">Our Chefs</a>
+                <a href="findachef/src/index.html">Join Us</a>
+                <a href="index.html">Book a Chef</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chef Connect. All rights reserved.</p>
+            <p>Designed with ❤️ by Chef Connect</p>
+        </div>
+    </footer>
+ 
+    <!-- Link To Js -->
+    <script src="main.js"></script>
+</body>
+</html>
